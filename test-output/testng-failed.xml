@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="4" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.testyantra.scripts.ActiTimeAccountTest">
+        <methods>
+          <include name="tc_01"/>
+        </methods>
+      </class> <!-- com.testyantra.scripts.ActiTimeAccountTest -->
+      <class name="com.testyantra.scripts.ActiTimeHomePage">
+        <methods>
+          <include name="tc_01"/>
+        </methods>
+      </class> <!-- com.testyantra.scripts.ActiTimeHomePage -->
+      <class name="com.testyantra.scripts.MenuItems">
+        <methods>
+          <include name="tc_verifyMenuItems"/>
+        </methods>
+      </class> <!-- com.testyantra.scripts.MenuItems -->
+      <class name="com.testyantra.scripts.ATest">
+        <methods>
+          <include name="tc_01"/>
+        </methods>
+      </class> <!-- com.testyantra.scripts.ATest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
